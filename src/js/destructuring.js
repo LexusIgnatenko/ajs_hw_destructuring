@@ -21,7 +21,8 @@
 //   return resultArray;
 // }
 
-// // 2-ое максимально компактное решение с использованием метода map
+
+// 2-ое максимально компактное решение с использованием метода map для свойства specital
 export function destructuring({ special }) {
   return special.map(({ id, name, description = 'Описание недоступно', icon }) => ({
     id, name, description, icon
