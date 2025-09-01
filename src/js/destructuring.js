@@ -6,17 +6,24 @@
  * из объектов с четыремя свойствами.
  */
 
-export function destructuring(destructor) {
-  const resultArray = [];
-  const { special: specialObjects } = destructor;
+// export function destructuring(destructor) {
+//   const resultArray = [];
+//   const { special: specialObjects } = destructor;
 
-  for (let object of specialObjects) {
-    let { id, name, description = 'Описание недоступно', icon } = object;
+//   for (let object of specialObjects) {
+//     let { id, name, description = 'Описание недоступно', icon } = object;
 
-    resultArray.push({
-      id, name, description, icon
-    });
-  }
+//     resultArray.push({
+//       id, name, description, icon
+//     });
+//   }
 
-  return resultArray;
+//   return resultArray;
+// }
+
+// // 2-ое максимально компактное решение с использованием метода map
+export function destructuring({ special }) {
+  return special.map(({ id, name, description = 'Описание недоступно', icon }) => ({
+    id, name, description, icon
+  }));
 }
