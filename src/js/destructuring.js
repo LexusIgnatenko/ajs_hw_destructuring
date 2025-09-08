@@ -21,7 +21,6 @@
 //   return resultArray;
 // }
 
-
 // 2-ое максимально компактное решение с использованием метода map для свойства special
 export function destructuring({ special }) {
   return special.map(({ id, name, description = 'Описание недоступно', icon }) => ({
