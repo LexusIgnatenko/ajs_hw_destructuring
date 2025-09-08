@@ -1,6 +1,6 @@
 # Destructuring
 
-[![Build status](https://ci.appveyor.com/api/projects/status/xh093pegcy18rxel?svg=true)](https://ci.appveyor.com/project/Maksim-Gavr-04/ajs-6-destructuring)
+[![Build status](https://ci.appveyor.com/api/projects/status/w6q11n9tpc8ups3w?svg=true)](https://ci.appveyor.com/project/LexusIgnatenko/ajs-hw-destructuring)
 
 ## Легенда
 
